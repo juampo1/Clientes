@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="addForm">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Ingrese Nombre..">
+        </div>
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Ingrese Apellido..">
+        </div>
+        <div>
+            <label for="DNI">DNI:</label>
+            <input type="number" id="DNI" name="DNI" placeholder="Ingrese DNI..">
+        </div>
+        <div>
+            <label for="Balance">Balance:</label>
+            <input type="number" id="Balance" name="Balance" placeholder="Ingrese Balance..">
+        </div>
+        <input type="submit" class="button" value="Guardar Cliente">
+    </form>
+
+    <div class="lista">
+        <h2>Listado de clientes guardados</h2>
+        <ul id="clientes">
+
+        </ul>
+    </div>
+    <script src="clientes.js"></script>
+</body>
+
+</html>
